@@ -13,6 +13,9 @@
 		A57E56DD2326FB6400FC180C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57E56DC2326FB6400FC180C /* Assets.xcassets */; };
 		A57E56E02326FB6400FC180C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57E56DE2326FB6400FC180C /* LaunchScreen.storyboard */; };
 		A57E56EB2326FB6400FC180C /* Song_Search_API_Keys_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E56EA2326FB6400FC180C /* Song_Search_API_Keys_LabTests.swift */; };
+		A57E56F62326FFCD00FC180C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E56F52326FFCD00FC180C /* NetworkManager.swift */; };
+		A57E56F82326FFFA00FC180C /* AppErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E56F72326FFFA00FC180C /* AppErrorHandling.swift */; };
+		A57E56FB232700A100FC180C /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E56FA232700A100FC180C /* Artist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		A57E56E62326FB6400FC180C /* Song-Search-API-Keys-LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Song-Search-API-Keys-LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57E56EA2326FB6400FC180C /* Song_Search_API_Keys_LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song_Search_API_Keys_LabTests.swift; sourceTree = "<group>"; };
 		A57E56EC2326FB6400FC180C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57E56F52326FFCD00FC180C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A57E56F72326FFFA00FC180C /* AppErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrorHandling.swift; sourceTree = "<group>"; };
+		A57E56FA232700A100FC180C /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,7 @@
 				A57E56D52326FB5E00FC180C /* AppDelegate.swift */,
 				A57E56D72326FB5E00FC180C /* ViewController.swift */,
 				A57E56D92326FB5E00FC180C /* Main.storyboard */,
+				A57E56F92327003600FC180C /* Models */,
 				A57E56DC2326FB6400FC180C /* Assets.xcassets */,
 				A57E56DE2326FB6400FC180C /* LaunchScreen.storyboard */,
 				A57E56E12326FB6400FC180C /* Info.plist */,
@@ -94,6 +101,16 @@
 				A57E56EC2326FB6400FC180C /* Info.plist */,
 			);
 			path = "Song-Search-API-Keys-LabTests";
+			sourceTree = "<group>";
+		};
+		A57E56F92327003600FC180C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A57E56F52326FFCD00FC180C /* NetworkManager.swift */,
+				A57E56FA232700A100FC180C /* Artist.swift */,
+				A57E56F72326FFFA00FC180C /* AppErrorHandling.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +214,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57E56F62326FFCD00FC180C /* NetworkManager.swift in Sources */,
+				A57E56F82326FFFA00FC180C /* AppErrorHandling.swift in Sources */,
 				A57E56D82326FB5E00FC180C /* ViewController.swift in Sources */,
+				A57E56FB232700A100FC180C /* Artist.swift in Sources */,
 				A57E56D62326FB5E00FC180C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
