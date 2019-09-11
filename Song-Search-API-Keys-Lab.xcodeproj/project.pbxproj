@@ -16,6 +16,7 @@
 		A57E56F62326FFCD00FC180C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E56F52326FFCD00FC180C /* NetworkManager.swift */; };
 		A57E56F82326FFFA00FC180C /* AppErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E56F72326FFFA00FC180C /* AppErrorHandling.swift */; };
 		A57E56FB232700A100FC180C /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E56FA232700A100FC180C /* Artist.swift */; };
+		A57E572F23283B2600FC180C /* ArtistAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57E572E23283B2600FC180C /* ArtistAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		A57E56F52326FFCD00FC180C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		A57E56F72326FFFA00FC180C /* AppErrorHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrorHandling.swift; sourceTree = "<group>"; };
 		A57E56FA232700A100FC180C /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		A57E572E23283B2600FC180C /* ArtistAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				A57E56F52326FFCD00FC180C /* NetworkManager.swift */,
+				A57E572E23283B2600FC180C /* ArtistAPIClient.swift */,
 				A57E56FA232700A100FC180C /* Artist.swift */,
 				A57E56F72326FFFA00FC180C /* AppErrorHandling.swift */,
 			);
@@ -218,6 +221,7 @@
 				A57E56F82326FFFA00FC180C /* AppErrorHandling.swift in Sources */,
 				A57E56D82326FB5E00FC180C /* ViewController.swift in Sources */,
 				A57E56FB232700A100FC180C /* Artist.swift in Sources */,
+				A57E572F23283B2600FC180C /* ArtistAPIClient.swift in Sources */,
 				A57E56D62326FB5E00FC180C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -18,6 +18,10 @@ struct MessageWrapper: Codable {
 
 struct BodyWrapper: Codable {
     let trackList: [Tracks]
+    
+    private enum CodingKeys: String, CodingKey {
+    case trackList = "track_list"
+    }
 }
 
 struct Tracks: Codable {
